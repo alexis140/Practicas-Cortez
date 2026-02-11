@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla HTML Básica</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        
+         td {
+            border: 1px solid #ca1616;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tabla Los Ineficientes</h1>
+        
+        <table>
+            
+            <tr class="row-header">
+                <th></th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+            </tr>
+            
+        
+            <tr>
+                <td class="row-header">3</td>
+                <td colspan="5">Las ex de josue citadino</td>
+            </tr>
+            
+            
+            <tr>
+                <td class="row-header">2</td>
+                <td rowspan="3">Alison</td>
+                <td colspan="2">Yami</td>
+                <td>Bryan</td>
+            </tr>
+            
+            
+            <tr>
+                <td class="row-header">3</td>
+                <td>Alisson Itcha</td>
+                <td rowspan="2">Enano Bryan</td>
+                <td>Henry Bebe</td>
+            </tr>
+            
+            
+            <tr>
+                <td class="row-header">4</td>
+                <td>2025</td>
+                <td>2026</td>
+            </tr>
+            
+            
+            <tr>
+                <td class="row-header">5</td>
+                <td>Una celda</td>
+                <td>Una celda</td>
+                <td>Una celda</td>
+                <td>Una celda</td>
+            </tr>
+        </table>
+</body>
+</html>
