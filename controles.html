@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Controles de formularios</title>
+   <link rel="stylesheet"href="../css/stylesheet1.css"/>
+</head>
+
+</head>
+<body>
+   <h1>Controles de formularios</h1>
+   <form method="post" action="php/controles.php" enctype="multipart/form-data">
+    <div>
+        <label for="volume">Volumen</label>
+        <input type="range" name="volume" id="volume" min="0" max="100"/>
+    </div>
+<form>
+<body>
+
+   </div> 
+<label for="peas">Nombre cliente:</label>
+<input type="text" name="nombre" id="nombre" value="ITCHA AGAPE" readonly/>
+</div>
+<div>
+    <label for="hora_registro">Hora de registro</label>
+    <input type="time" name="hora_registro" id="hora_registro"/>
+</div>
+<div>
+    <label for="url_base">URL Negocio</label>
+    <input type="url" name="url_base" id="url_base" required/>
+</div>
+<div>
+    <label for="telefono">Teléfono</label>
+    <input type="tel" name="telefono" id="telefono"/>
+</div>
+<div>
+<label for="archivo">Archivo</label>
+<input type="file" name="archivo" id="archivo"/>
+</div>
+
+<div>
+    
+    <label for="hora_cita">Hora de cita</label>
+    <input type="datetime-local" name="hora_cita" id="hora_cita"/>
+</div>
+<div>
+    <label for="salario">Salario</label>
+    <input type="number" name="salario" id="salario" min="0"/>
+</div>
+<div>
+    <label for="clave">Clave</label>
+    <input type="password" name="clave" id="clave" required/>
+</div>
+<div>
+    <label for="fecha_nacimiento">Fecha de nacimiento</label>
+    <input type="date" name="fecha_nacimiento" id="fecha_nacimiento"/>
+
+</div>
+<div>
+    <label for="COLOR1">Color </label>
+    <input type="color" name="COLOR1" id="COLOR1" required/>
+    <input type="button"
+    value="Personalizar"
+    id="personalizar"
+    name="personalizar"disabled>
+
+
+
+</div>
+
+<div>
+    <label for="paises">Países</label>
+    <select name="paises" id="paises">
+        <option value="mexico">México</option>
+        <option value="colombia">Colombia</option>
+        <option value="argentina">Argentina</option>
+    </select>
+</div>
+<DIV>
+    <input type="radio" id="sector" name="radio" value="sector"/>
+    <label for="sector">Sector</label>
+
+</DIV>
+<div>
+    <textarea name="comentarios" id="comentarios" rows="5" cols="30" placeholder="Comentarios">
+
+    </textarea>
+</div>
+
+<input type="hidden" id="x" name="x" value="356" required/>   
+
+
+    <label for="color_favorito">Color favorito</label>
+    <input type="color" name="color_favorito" id="color_favorito"/>
+    <div>
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correo" id="correo"/>
+
+    </div>
+
+    <div>
+    <input type="submit" value="Enviar Datos">
+</div>
+<div>
+    <input type="checkbox"id="aceptar" name="aceptar" value="si"/>
+    <label for="aceptar">Aceptar compartir datos</label>
+</div>
+</form>
+</body>
+</html>
+
+
+
